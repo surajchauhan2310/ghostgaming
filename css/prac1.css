@@ -1,0 +1,182 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+div{
+	font-family: arial;
+}
+.wrapper{
+	height: auto;
+	width: 100%;
+	/*background-color: maroon;*/
+
+}
+.title{
+	height:75px;
+	width: 100%;
+	position: fixed;
+	z-index: 10;
+	float: left;
+	background-color:orange; 	
+}
+.logo{
+height: 75px;
+width: 10%;
+/*background-color:yellow;*/
+float: left;
+}
+.logo img{
+height: 75px;
+width: 100%
+}
+.list
+{
+	height: 75px;
+	width: 90%;
+	/*background-color: grey;*/
+	float: left;
+}
+.list ul
+{
+	height: 75px;
+	width: 100%;
+	/*background-color: yellow;*/
+
+}
+.list ul li
+{
+	list-style-type: none;
+	float: left;
+	height: 75px;
+	width: 25%;
+	/*background-color: cyan;*/
+	/*margin: 25px 0 0 0;*/
+	line-height: 75px;
+	text-align: center;
+	font-weight: bold;	
+}
+.list ul li:hover
+{
+	cursor: pointer;
+	color: white;
+	background-color: black;
+	transition: .5s;
+	font-size: 20px;
+}
+.vp1
+{
+	height: 700px;
+	width: 100%;
+	/*background-color: red;*/
+	float: left;
+	position: relative;
+	/*opacity: .8;*/
+}
+/*.vp1-img
+{
+	height: 700px;
+	width: 100%;
+}*/
+.vp1 img
+{
+	height: 700px;
+	width: 100%;
+	float: left;
+	opacity: .8;
+}
+.vp1-cont
+{
+	height: 150px;
+	width: 60%;
+	/*background-color: orange;*/
+	margin: 10% 0 0 20%;
+	float: left;
+	position: absolute;
+	text-align: center;
+	font-size: 50px;
+	line-height: 150px;
+	letter-spacing: 5px;
+	transition: .6s;
+}
+.vp1-cont:hover
+{
+	cursor: pointer;
+	color: cyan;
+	transition: .6s;
+	font-size: 52px;
+	text-decoration: underline;
+}
+.vp1-cont2
+{
+	height: 50px;
+	width: 70%;
+	margin: 300px 0 0 15%;
+	/*background-color: yellow;*/
+	float: left;
+	text-align: center;
+	color: black;
+	line-height: 25px;
+	font-weight: bolder;
+	position: absolute;
+}
+.social
+{
+	height: 30px;
+	width: 20%;
+	/*background-color: blue;*/
+	position: absolute;
+	margin: 600px 0 0 40%;
+}
+.social ul li
+{
+	list-style-type: none;
+	float: left;
+	height: 30px;
+	width: 15%;
+	/*background-color: yellow;*/
+	text-align: center;
+	line-height: 30px;
+	font-size: 20px;
+	margin-left: 5%;
+	transition: .6s;
+}
+.social ul li:hover
+{
+	cursor: pointer;
+	color: #1ea176;
+	transition: .6s;
+	font-size: 22px;
+}
+/*.social ul li:nth-child()
+{
+	margin-left: 13%;
+}*/
+.vp2
+{
+	height: 700px;
+	width: 100%;
+	background-color: blue;
+	float: left;
+	/*position: relative;*/
+}
+.vp2 img
+{
+	height: 700px;
+	width: 100%;
+	float: left;
+}
+.vp3
+{
+	height: 700px;
+	width: 100%;
+	background-color: cyan;
+	float: left;
+	/*position: relative;*/
+}
+.vp3 img
+{
+	height: 700px;
+	width: 100%;
+	float: left;
+}
+
